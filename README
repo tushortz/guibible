@@ -1,0 +1,130 @@
+.. -*- restructuredtext -*-
+
+This is a simple bible application that parses bible verses and either prints it to the console window or displays it graphically **(Pygame needed in this case)**. 
+
+
+Requirements
+------------
+* Python 3
+* Pygame (For graphical display)
+ 
+
+ **To install pygame, use:** 
+
+.. code:: python
+
+    pip install pygame
+
+
+Installation
+------------
+
+`PIP`
+^^^^^
+If you have **Pip** installed, go to the ``terminal window`` and type 
+
+.. code:: python
+    
+    pip install guibible
+
+`Manually`
+^^^^^^^^^^
+
+Go to the `Python Packaging Index <https://pypi.python.org>`_ website. Search for `guibible <https://pypi.python.org/pypi/guibible>`_ and either download the *compressed version* for your operating system and copy it into the ``Lib`` --> ``site-packages`` directory of your ``python 3``. 
+
+|
+
+You can also download and run the ``.msi`` or ``.exe`` file for windows.
+
+
+Usage Instructions
+------------------
+
+Importing
+^^^^^^^^^
+
+.. code-block:: python
+
+    from guibible.net import Bible   # or 
+    import guibible.net
+
+
+Usage
+^^^^^
+
+**All are Optional arguments**
+
+``instance_variable = Bible(book, chapter, verse_begin, verse_end)``
+
+.. note::
+    If you imported it the first way, you would have to use it this way. 
+    
+    
+    ``Default is Bible(Genesis, 1) which shows Genesis 1``
+
+    .. code-block:: python
+    
+        sample= Bible("John", 3, 16, 18) # Will get John 3:16-18
+
+    Otherwise use:
+
+    .. code-block:: python
+        
+        sample = guibible.net.Bible("John", 3, 16)
+
+|
+
+**To display(print) verse in console window, use:**
+
+* `No arguments` --> sample.read() 
+
+**To display verse in graphical format, use:**
+
+* `No arguments` --> ``sample.display()`` will use the default foreground color (black) on the default background color (white).
+
+* `One argument` --> ``sample.display((0,0,255))`` will use the `first argument(supplied foreground color)` on the default background color (white).
+    
+* `Two arguments` --> ``sample.display((0,0,255), (255, 255, 0))`` will use the `first argument(supplied foreground color)` on the second argument (supplied background color).
+
+
+.. note:: 
+    
+    See `documentation <http://www.pythonhosted.org/guibible/>`_ for full information
+
+
+Quitting
+^^^^^^^^
+
+You can quit the pygame graphical window by either pressing the ``Q``, ``SPACE`` or ``ESC`` key on the keyboard
+
+
+Contribution
+------------
+
+If you would like to contribute to this project, feel free to ``fork me`` on `Github <https://github.com/tushortz/guibible>`_
+ 
+
+License
+--------
+
+`The MIT License <https://opensource.org/licenses/MIT>`_
+
+Copyright (c) 2015 Taiwo Kareem | taiwo.kareem36@gmail.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+
+
+Acknowledgements
+-----------------
+
+All glory belongs to God for his mercy and guidance.
+

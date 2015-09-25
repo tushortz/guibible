@@ -1,0 +1,359 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Net &mdash; guibible 0.1.0 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/bible.ico"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="guibible 0.1.0 documentation" href="index.html"/>
+        <link rel="prev" title="What’s new" href="news.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="index.html" class="icon icon-home"> guibible
+        
+
+        
+          
+          <img src="_static/bible.jpg" class="logo" />
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="news.html">What&#8217;s new</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="news.html#guibible-0-1-4">GuiBible 0.1.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="news.html#guibible-0-1-3">GuiBible 0.1.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="news.html#guibible-0-1-2">GuiBible 0.1.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="news.html#guibible-0-1-1">GuiBible 0.1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="news.html#guibible-0-1-0">GuiBible 0.1.0</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">NET</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#bible">Bible</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#arguments">Arguments</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#zero-argument">Zero argument</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#one-argument">One argument</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#two-argument">Two argument</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#three-argument">Three argument</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#four-argument">Four argument</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#importing-module-class">Importing module class</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-methods">Module methods</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#read">read()</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#display">display()</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#quitting-the-gui-display-window">Quitting the GUI display window</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">guibible</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Net</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="net">
+<h1>NET<a class="headerlink" href="#net" title="Permalink to this headline">¶</a></h1>
+<p><strong>net</strong> is a <em>guibible</em> module and has a class called <code class="docutils literal"><span class="pre">Bible</span></code>.</p>
+<div class="section" id="bible">
+<h2>Bible<a class="headerlink" href="#bible" title="Permalink to this headline">¶</a></h2>
+<p>Bible has two methods namely:</p>
+<ul class="simple">
+<li>display() &#8211;&gt; Displays a specified bible verse in a graphical format.</li>
+<li>read() &#8211;&gt; Displays a specified bible verse in the console window.</li>
+</ul>
+<div class="section" id="arguments">
+<h3>Arguments<a class="headerlink" href="#arguments" title="Permalink to this headline">¶</a></h3>
+<p>the <strong>Bible</strong> class can take between <strong>0 - 4</strong> arguments. It tries to help fix spelling errors and wrong book name, chapter or verse and if none can be fixed, it falls back to the nearest correct mistake level. For example, if psalm was spelt wrongly, it falls back to Genesis, if Psalm has no chapter 2345, it falls back to Psalm 1.</p>
+<div class="section" id="zero-argument">
+<h4>Zero argument<a class="headerlink" href="#zero-argument" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Bible()</span></code> &#8211; &gt; Will get the default values i.e. Genesis Chapter 1.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="one-argument">
+<h4>One argument<a class="headerlink" href="#one-argument" title="Permalink to this headline">¶</a></h4>
+<p><strong>Bible(&#8220;Book name&#8221;)</strong></p>
+<p><code class="docutils literal"><span class="pre">Bible(&quot;Exodus&quot;)</span></code> &#8211; &gt; Will use first parameter as the book name and a default chapter 1 to get the verse i.e. Exodus Chapter 1.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="two-argument">
+<h4>Two argument<a class="headerlink" href="#two-argument" title="Permalink to this headline">¶</a></h4>
+<p><strong>Bible(&#8220;Book name&#8221;, chapter number)</strong></p>
+<p><code class="docutils literal"><span class="pre">Bible(&quot;Psalm&quot;,</span> <span class="pre">3)</span></code> &#8211; &gt; Will use first parameter as the book name and the second parameter as the second parameter as the chapter number to get the passage i.e. Psalm 3.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="three-argument">
+<h4>Three argument<a class="headerlink" href="#three-argument" title="Permalink to this headline">¶</a></h4>
+<p><strong>Bible(&#8220;Book name&#8221;, chapter number, verse begin number)</strong></p>
+<p><code class="docutils literal"><span class="pre">Bible(&quot;Psalm&quot;,</span> <span class="pre">23,</span> <span class="pre">5)</span></code> &#8211; &gt; Will use first parameter as the book name, the second parameter as the chapter, and the third parameter as the verse number to get the passage i.e. Psalm 23:5.</p>
+<img alt="Psalm 23:5 (NET)" src="_images/psalm23_5.png" />
+</div>
+<hr class="docutils" />
+<div class="section" id="four-argument">
+<h4>Four argument<a class="headerlink" href="#four-argument" title="Permalink to this headline">¶</a></h4>
+<p><strong>Bible(&#8220;Book name&#8221;, chapter number, verse begin number, verse end number)</strong></p>
+<p><code class="docutils literal"><span class="pre">Bible(&quot;Proverb&quot;,</span> <span class="pre">2,</span> <span class="pre">4,</span> <span class="pre">6)</span></code> &#8211; &gt; Will use first parameter as the book name, the second parameter as the chapter, and the third parameter as the verse starting number and the fourth parameter as the verse end-number to get the passage i.e. Proverb 2:4-6.</p>
+<img alt="Proverbs 2:4-6 (NET)" src="_images/proverbs_2_4_6.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="importing-module-class">
+<h3>Importing module class<a class="headerlink" href="#importing-module-class" title="Permalink to this headline">¶</a></h3>
+<p>You can import the Bible class in any of the following ways. For example:</p>
+<div class="sidebar">
+<p class="first sidebar-title">Usage</p>
+<div class="code python last highlight-python"><div class="highlight"><pre><span class="n">var</span> <span class="o">=</span> <span class="n">guibible</span><span class="o">.</span><span class="n">net</span><span class="o">.</span><span class="n">Bible</span><span class="p">(</span><span class="s">&quot;Genesis&quot;</span><span class="p">)</span>      <span class="c">#1</span>
+
+<span class="n">var</span> <span class="o">=</span> <span class="n">Bible</span><span class="p">(</span><span class="s">&quot;Psalm&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>     <span class="c">#2</span>
+
+<span class="n">var</span> <span class="o">=</span> <span class="n">somename</span><span class="o">.</span><span class="n">Bible</span><span class="p">(</span><span class="s">&quot;Exodus&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>  <span class="c">#3</span>
+
+<span class="n">var</span> <span class="o">=</span> <span class="n">somename</span><span class="o">.</span><span class="n">Bible</span><span class="p">(</span><span class="s">&quot;1 Thessalonians&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>     <span class="c">#4</span>
+</pre></div>
+</div>
+</div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">guibible.net</span>         <span class="c">#1</span>
+</pre></div>
+</div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">guibible.net</span> <span class="kn">import</span> <span class="n">Bible</span>      <span class="c">#2</span>
+</pre></div>
+</div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">guibible.net</span> <span class="kn">as</span> <span class="nn">somename</span>     <span class="c">#3</span>
+</pre></div>
+</div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">guibible.net</span> <span class="kn">import</span> <span class="n">Bible</span> <span class="k">as</span> <span class="n">somename</span>  <span class="c">#4</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="module-methods">
+<h3>Module methods<a class="headerlink" href="#module-methods" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="read">
+<h4>read()<a class="headerlink" href="#read" title="Permalink to this headline">¶</a></h4>
+<p>Read takes no argument and can be used easily after importing the Bible class and creating an instance as in the example below. It will then print the corresponding passage to the console window.</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">guibible.net</span> <span class="kn">import</span> <span class="n">Bible</span>
+<span class="n">sample</span> <span class="o">=</span> <span class="n">Bible</span><span class="p">(</span><span class="s">&quot;Psalm&quot;</span><span class="p">,</span> <span class="mi">23</span><span class="p">)</span>
+<span class="n">sample</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</pre></div>
+</div>
+<img alt="Console result" src="_images/console.png" />
+</div>
+<hr class="docutils" />
+<div class="section" id="display">
+<h4>display()<a class="headerlink" href="#display" title="Permalink to this headline">¶</a></h4>
+<p>display can be used easily after importing the Bible class and creating an instance as in the example below. It will then display the corresponding passage in a window using pygame&#8217;s graphic display. It takes between zero to two arguments.</p>
+<div class="section" id="id1">
+<h5>Arguments<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h5>
+<div class="sidebar">
+<p class="first sidebar-title">note</p>
+<p>A tuple or list is required to change foreground and background colour for the display argument.</p>
+<p class="last">e.g. display( <strong>(0, 255, 0)</strong>, <strong>(255, 0, 0)</strong> )</p>
+</div>
+<p><strong>Zero arguments</strong></p>
+<p><cite>instance_variable</cite>.display()</p>
+<p>uses the default foreground and background colours</p>
+<hr class="docutils" />
+<p><strong>One argument</strong></p>
+<p><strong>Display( [R, G, B] )</strong></p>
+<p><cite>instance_variable</cite>.display( (<strong>foreground colour</strong>) )</p>
+<p>will set the text foreground color to the specifed <em>RGB</em> tuple or list and leave the background as the default value. e.g. the code below will set the texts colour to blue.</p>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="n">sample</span><span class="o">.</span><span class="n">bible</span><span class="p">(</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span> <span class="p">)</span>
+</pre></div>
+</div>
+<img alt="Coloured" src="_images/psalm23_color.png" />
+<hr class="docutils" />
+<p><strong>Two arguments</strong></p>
+<p><cite>instance_variable</cite>.display( [<strong>foreground colour</strong>], [<strong>background colour</strong>] )</p>
+<p>will set the text foreground color to the first <em>RGB</em> tuple or list argument and the background color to the second <em>RGB</em> tuple or list argument. e.g. the code below will set the texts colour to white and the background colour to black.</p>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="n">sample</span><span class="o">.</span><span class="n">bible</span><span class="p">(</span> <span class="p">[</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span> <span class="p">)</span>
+</pre></div>
+</div>
+<img alt="light on dark" src="_images/psalm23_dark.png" />
+<hr class="docutils" />
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p>pygame must be installed for this to work</p>
+<p>To install <strong>pygame</strong>, simply go to the shell (terminal) and type:</p>
+<div class="code python last highlight-python"><div class="highlight"><pre>pip install pygame
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="example">
+<h5>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">guibible.net</span> <span class="kn">import</span> <span class="n">Bible</span>
+<span class="n">sample</span> <span class="o">=</span> <span class="n">Bible</span><span class="p">(</span><span class="s">&quot;Psalm&quot;</span><span class="p">,</span> <span class="mi">23</span><span class="p">)</span>
+<span class="n">sample</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="result">
+<h5>Result<a class="headerlink" href="#result" title="Permalink to this headline">¶</a></h5>
+<img alt="Console result" src="_images/gui.png" />
+</div>
+</div>
+</div>
+<div class="section" id="quitting-the-gui-display-window">
+<h3>Quitting the GUI display window<a class="headerlink" href="#quitting-the-gui-display-window" title="Permalink to this headline">¶</a></h3>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><strong>Quitting</strong></p>
+<p class="last">To quit the gui window, press the <code class="docutils literal"><span class="pre">Q</span></code>, <code class="docutils literal"><span class="pre">ESC</span> <span class="pre">(escape)</span></code> or the <code class="docutils literal"><span class="pre">SPACE</span> <span class="pre">bar</span></code> key on the keyboard.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="news.html" class="btn btn-neutral" title="What’s new" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Taiwo Kareem.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
